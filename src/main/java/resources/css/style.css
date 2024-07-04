@@ -1,0 +1,33 @@
+.header {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px;
+    -fx-text-fill: #333;
+}
+.event-card {
+    -fx-border-color: #ccc;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-padding: 10px;
+    -fx-background-color: #f9f9f9;
+}
+
+.event-card ImageView {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.75), 10, 0.5, 0.0, 0.0);
+    -fx-border-radius: 5px;
+}
+
+.event-card Label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+.event-card Button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.event-card Button:hover {
+    -fx-background-color: #45a049;
+}
